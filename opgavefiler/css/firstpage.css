@@ -4,15 +4,32 @@ du må erne style din message :)
 
 /*opgave 3*/
 
+
+body{
+  margin: 0;
+  padding: 0;
+  /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(140,221,201,1) 100%); */
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgb(102, 136, 123) 100%);
+
+
+ 
+
+ 
+}
+
 #theStory img {
-  width: 100%;
+  border-radius: 9px;
+  border: solid #adb094;
+ 
+
+  margin: auto;
 }
 
 #theStory button {
   margin-right: 0.3rem;
   color: aliceblue;
-  background-color: orangered;
-  border: 2px solid rgb(247, 115, 8);
+  background-color: #adb094;
+  border: 1px solid rgb#adb094;(247, 115, 8);
 }
 
 #theStory h2 {
